@@ -1,0 +1,10 @@
+docker image prune
+
+docker container prune
+
+docker volume prune
+
+docker network prune
+
+# DELETE ALL UNUSED, EXCEPT VOLUME
+docker system prune
