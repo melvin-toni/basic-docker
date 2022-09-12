@@ -28,3 +28,6 @@ docker container logs command
 docker build -t melvintoni/label label
 
 docker image inspect melvintoni/label
+
+# ADD instruction
+docker build -t melvintoni/add add
