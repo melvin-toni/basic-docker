@@ -23,3 +23,8 @@ docker container start command
 docker container ls -a
 
 docker container logs command
+
+# LABEL instruction
+docker build -t melvintoni/label label
+
+docker image inspect melvintoni/label
