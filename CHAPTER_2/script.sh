@@ -31,3 +31,9 @@ docker image inspect melvintoni/label
 
 # ADD instruction
 docker build -t melvintoni/add add
+
+docker container create --name add melvintoni/add
+
+docker container start add
+
+docker container logs add
